@@ -21,4 +21,4 @@ mongoose
   .then(() => console.log('✅ MongoDB connected'))
   .catch((err) => console.error('❌ MongoDB error:', err));
 
-module.exports.handler = serverless(app);
+module.exports = serverless(app);
